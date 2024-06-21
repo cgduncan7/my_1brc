@@ -22,6 +22,6 @@ RAM: 2244MiB / 32768MiB
 
 ### Time
 
-real    2m3.140s
-user    12m32.692s
-sys     0m25.353s
+real    1m59.022s
+user    13m19.962s
+sys     0m23.185s

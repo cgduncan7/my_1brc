@@ -2,8 +2,8 @@ import { FileHandle, open, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import { Worker, isMainThread, parentPort, workerData } from 'node:worker_threads'
 
-const WORKER_CHUNK_SIZE = 1024 * 1024 * 256
-const ACTIVE_WORKERS = 8
+const WORKER_CHUNK_SIZE = 1024 * 1024 * 32 
+const ACTIVE_WORKERS = 16
 
 const INPUT_FILENAME_SMALL = join('..','..','..','data','measurements_small.txt')
 const INPUT_FILENAME = join('..','..','..','data','measurements.txt')

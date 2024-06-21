@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"os"
 	"solutions/a"
 	"solutions/b"
@@ -31,5 +30,4 @@ func main() {
 	default:
 		panic("unregistered solution")
 	}
-	fmt.Println(sln)
 }

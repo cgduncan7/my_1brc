@@ -8,7 +8,7 @@ import (
 	"unicode/utf8"
 )
 
-var OUTPUT_FILE = "../../../data/output_golang_a.txt"
+var OUTPUT_FILE = "../../data/output_golang_a.txt"
 var CHUNK_SIZE int64 = 1024 * 1024 * 1
 
 type StationAggregate struct {

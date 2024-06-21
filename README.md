@@ -12,3 +12,4 @@ Repository holding my 1brc experiments across different languages
 ### golang
 
 - [Naïve solution with native libraries](./solutions/golang/a)
+- [2nd attempt using native libraries and goroutines](./solutions/golang/b)
